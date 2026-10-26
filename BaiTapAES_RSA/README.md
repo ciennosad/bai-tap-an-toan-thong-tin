@@ -12,17 +12,19 @@ sử dụng ngôn ngữ C# trên nền tảng .NET.
 
 ## Cấu trúc thư mục dự án
 
-BaiTapAES_RSA/
-├── Program.cs                    File code chính chứa toàn bộ logic
-├── BaiTapAES_RSA.csproj          File cấu hình project .NET
-├── khoa_aes.json                 File lưu khóa AES (Key + IV)
-── public_key.pem                Public Key RSA định dạng PEM
-├── private_key.pem               Private Key RSA định dạng PEM
-├── du_lieu_ma_hoa_rsa.txt        Dữ liệu đã mã hóa bằng RSA (Base64)
-── file_goc.dat                  File gốc dùng để test mã hóa AES
-├── file_ma_hoa.dat               File đã được mã hóa AES
-├── file_giai_ma.dat              File đã được giải mã AES
-└── README.md                     File hướng dẫn này
+## Cấu trúc thư mục dự án
+
+- BaiTapAES_RSA/
+  - Program.cs - File code chính chứa toàn bộ logic
+  - BaiTapAES_RSA.csproj - File cấu hình project .NET
+  - khoa_aes.json - File lưu khóa AES (Key + IV)
+  - public_key.pem - Public Key RSA định dạng PEM
+  - private_key.pem - Private Key RSA định dạng PEM
+  - du_lieu_ma_hoa_rsa.txt - Dữ liệu đã mã hóa bằng RSA (Base64)
+  - file_goc.dat - File gốc dùng để test mã hóa AES
+  - file_ma_hoa.dat - File đã được mã hóa AES
+  - file_giai_ma.dat - File đã được giải mã AES
+  - README.md - File hướng dẫn này
 
 ## Yêu cầu hệ thống
 - .NET SDK 6.0 hoặc cao hơn (máy mình dùng .NET 10.0.402)
